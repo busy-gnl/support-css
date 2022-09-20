@@ -1,0 +1,36 @@
+div,
+span {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* La différence entre block et inline est que bloc prend 
+toute la largeur de la page alors que inline ne prend que 
+la largeur de son contenu. */
+
+/* La propriété inline-block permet de mettre en ligne les blocks
+en appliquant la taille qu'on leur a définit.*/
+
+div {
+    background-color: blue;
+    display: inline-block;
+}
+
+span {
+    background-color: darkorange;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    background-color: aqua;
+    border: 3px solid black;
+    width: 400px;
+    margin: auto;
+}
+
+/* h1 est de type block, elle prend toute la page
+text-align : va centrer va centre le contenue dans le block
+margin:auto : va centrer le contenant sur la page
